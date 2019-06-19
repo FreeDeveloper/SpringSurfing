@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+            xmlns:targetNamgspace="http://www.smile.cn/schema/user"
+            targetNamespace="http://www.smile.cn/schema/user"
+            elementFormDefault="qualified">
+
+    <element name="user">
+        <complexType>
+            <attribute name="id" type="string"/>
+            <attribute name="userName" type="string"/>
+            <attribute name="email" type="string"/>
+        </complexType>
+    </element>
+
+</schema>
