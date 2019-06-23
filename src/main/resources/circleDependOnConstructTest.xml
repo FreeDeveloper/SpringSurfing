@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <!--构造函数依赖-->
+    <bean id="testAcos" class="cn.smile.spring.container.bean.circleDepend.ClassA">
+        <constructor-arg index="0" ref="testBcos"></constructor-arg>
+    </bean>
+
+    <bean id="testBcos" class="cn.smile.spring.container.bean.circleDepend.ClassB">
+        <constructor-arg index="0" ref="testCcos"></constructor-arg>
+    </bean>
+
+    <bean id="testCcos" class="cn.smile.spring.container.bean.circleDepend.ClassC">
+        <constructor-arg index="0" ref="testAcos"></constructor-arg>
+    </bean>
+
+</beans>
