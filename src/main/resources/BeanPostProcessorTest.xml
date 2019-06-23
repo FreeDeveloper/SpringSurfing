@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean id="car" class="cn.smile.spring.container.bean.beanPostProcessorTest.Car">
+    </bean>
+
+    <bean id="motoBike" class="cn.smile.spring.container.bean.beanPostProcessorTest.Motobike">
+    </bean>
+
+    <!-- Spring后置处理器 -->
+    <bean id="postProcessor1" class="cn.smile.spring.container.bean.beanPostProcessorTest.BeanPostProcessor1"/>
+    <!-- Spring后置处理器 -->
+    <bean id="postProcessor2" class="cn.smile.spring.container.bean.beanPostProcessorTest.BeanPostProcessor2"/>
+</beans>
