@@ -11,12 +11,10 @@ import org.springframework.transaction.annotation.Transactional;
  * */
 public class AServiceImpl implements AService {
 
-    @Override
     @Transactional(propagation = Propagation.REQUIRED)
     public void a() {
         ((AService)AopContext.currentProxy()).b();
     }
-    @Override
     @Transactional(propagation = Propagation.REQUIRED)
     public void b() { }
 }
