@@ -3,14 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
 
-    <bean id="car" class="cn.smile.spring.container.bean.beanPostProcessorTest.Car">
+    <bean id="car" class="cn.smile.bean.beanPostProcessorTest.Car">
     </bean>
 
-    <bean id="motorBike" class="cn.smile.spring.container.bean.beanPostProcessorTest.Motorbike">
+    <bean id="motorBike" class="cn.smile.bean.beanPostProcessorTest.Motorbike">
     </bean>
 
     <!-- Spring后置处理器 -->
-    <bean id="postProcessor1" class="cn.smile.spring.container.bean.beanPostProcessorTest.BeanPostProcessor1"/>
+    <bean id="postProcessor1" class="cn.smile.bean.beanPostProcessorTest.BeanPostProcessor1"/>
     <!-- Spring后置处理器 -->
-    <bean id="postProcessor2" class="cn.smile.spring.container.bean.beanPostProcessorTest.BeanPostProcessor2"/>
+    <bean id="postProcessor2" class="cn.smile.bean.beanPostProcessorTest.BeanPostProcessor2"/>
 </beans>

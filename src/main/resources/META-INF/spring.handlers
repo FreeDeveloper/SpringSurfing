@@ -1,1 +1,1 @@
-http\://www.smile.cn/schema/user=cn.smile.spring.container.bean.customtag.UserNamespaceHandler
+http\://www.smile.cn/schema/user=cn.smile.bean.customtag.UserNamespaceHandler

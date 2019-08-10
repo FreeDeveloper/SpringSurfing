@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../algorithm-surfing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../effectiveIO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../efficientJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mybatis-suffing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../surfing-concurrency" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tomcatAndJetty" vcs="Git" />
   </component>
 </project>
